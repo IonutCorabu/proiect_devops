@@ -3,7 +3,7 @@
 echo "--- 🚀 Pregatesc lansarea aplicatiei (Universal) ---"
 
 echo "1. Ma deplasez in folderul backend..."
-cd ~/proiect_devops/backend
+cd "$(dirname "$0")/backend"
 
 echo "2. Verific daca serverul este acolo..."
 if [ -f "server.py" ]; then
